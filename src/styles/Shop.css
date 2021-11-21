@@ -1,0 +1,40 @@
+.shopMain {
+    background-image: url("../images/back2.jpg");
+    height: 100%;
+    margin: 0;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    color: black;
+}
+
+.shopDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    border: 0.2em solid black;
+    border-radius: 5px;
+    width: 60vw;
+    background-color: rgb(247, 247, 247, 0.9); 
+    animation: fadeIn 1.2s ease backwards;
+}
+
+.itemsDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(10, 1fr);
+    column-gap: 10vw;
+    row-gap: 4em;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;  
+    }
+    100% {
+        opacity: 1;
+    }
+}
+

@@ -1,0 +1,58 @@
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 4em;
+    background-color: gray;
+    list-style: none;
+    border-bottom: 0.2em solid black;
+    color: white;
+}
+
+img {
+    width: 3em;
+    height: 2.5em;
+}
+
+li {
+    padding: 2em;
+    font-size: 1.2em;
+}
+
+.cartDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartDiv > span {
+    position: relative;
+    right: 0.8em;
+    font-size: 1.2em;
+    padding-left: 0.2em;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.9s ease
+}
+
+a:hover {
+    font-size: 1.05em;
+    letter-spacing: 0.1em;
+}
+
+a:visited {
+    color: white;
+}
+
+.cart {
+    position: absolute;
+    right: 0;
+    transition: all 0.9s ease;
+    padding: 0;
+}
+
+.cart:hover .cartDiv span {
+    transform: scale(1.05);
+}

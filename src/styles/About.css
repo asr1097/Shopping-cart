@@ -1,0 +1,27 @@
+.aboutContent {
+    position: relative;
+    margin: auto;
+    top: 20vh;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    text-align: left;
+}
+
+.aboutContent p {
+    position: relative;
+    font-size: 1.5em;
+    animation: fadeIn 0.8s ease 0.3s backwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        left: -1%
+    }
+    100% {
+        opacity: 1;
+        left: 0;
+    }
+}

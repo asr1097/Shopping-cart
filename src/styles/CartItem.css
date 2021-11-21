@@ -1,0 +1,75 @@
+.cartItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40em;
+    margin-bottom: 0.8em;
+    border-bottom: 0.1em solid black;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+.cartItem > img {
+    width: 6em;
+    height: 5em;
+}
+
+.cartItem > * {
+    padding: 0.5em;
+}
+
+.valueDiv > input {
+    width: 2.5em;
+}
+
+.valueDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.4em;
+    margin-right: 1em;
+}
+
+.nameAndPriceDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 33%;
+}
+
+.nameLab {
+    width: 6em;
+}
+
+.priceLab {
+    width: 3em;
+    font-weight: bold;
+}
+
+
+.btnsDiv {
+    display: flex;
+    align-items: center;
+    width: 33%;
+}
+
+.plusBtn, .minusBtn {
+    border: 0;
+    background-color: transparent;
+    height: 1.5em;
+    width: 1.5em;
+    transition: all 0.7s ease
+}
+
+.plusBtn:hover, .minusBtn:hover {
+    transform: scale(1.1);
+}
+
+.deleteBtn {
+    height: 2.3em;
+    width: 2.3em;
+    transition: all 0.7s ease
+}
+
+.deleteBtn:hover {
+    transform: scale(1.1);
+}
